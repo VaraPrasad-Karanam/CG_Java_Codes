@@ -1,0 +1,2 @@
+1.check whether a character is a vowel using switch
+2.create a menu-driven program for ATM Operations.
