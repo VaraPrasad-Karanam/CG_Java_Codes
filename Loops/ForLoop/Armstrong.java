@@ -13,7 +13,7 @@ public class Armstrong {
       }
       for(int i=num;i>0;i/=10){
         int rem = i%10;
-        sum = sum + (int)Math.pow(rem,digits);
+        sum = sum + (int)(Math.pow(rem,digits));
       }
       if(sum == temp){
         System.out.println("Armstrong number");

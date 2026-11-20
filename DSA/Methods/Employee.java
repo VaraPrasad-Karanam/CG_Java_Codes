@@ -12,6 +12,7 @@ public class Employee {
     public static void main(String[] args) {
         Employee  e = new Employee();
         e.display(101, "Keerthi");
-        e.displayAnnualSalary(25000);
+        double  a = e.displayAnnualSalary(25000);
+        System.out.println(a);
     }
 }

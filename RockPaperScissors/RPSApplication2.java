@@ -20,15 +20,16 @@ public class RPSApplication2 {
         System.out.println("2 - Paper");
 
         int usi = sc.nextInt();
-
+        while(true){
         if (usi < 0 || usi > 2) {
             System.out.println("Invalid user input");
+            System.out.println("Please enter 0, 1 or 2");
             return;
         }
 
         String usc = arr[usi];
         System.out.println("User Choice: " + usc);
-
+    }
         // Computer input
         int cmi = rd.nextInt(3);
         String cmc = arr[cmi];
@@ -68,7 +69,7 @@ public class RPSApplication2 {
 
         while (start) {
 
-            System.out.println("\n1. Start Game");
+            System.out.println("1. Start Game");
             System.out.println("2. Check Score");
             System.out.println("3. Exit");
 
